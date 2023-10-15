@@ -1,29 +1,41 @@
-US Cost of Living Analysis
+# WHY IS SO EXPENSIVE TO BE ALIVE?
 
-Significance of the Project:
-The cost of living is a significant factor affecting the lives of millions of people in the US. By understanding the underlying dynamics of the cost of living, we can provide valuable insights to policymakers, businesses, and individuals. This analysis aims to unearth patterns and relationships in the cost of living data across different states and counties in the US.
+Living in the modern world comes with its costs. But what factors truly influence the cost of living across different regions in the U.S.? This project dives deep into understanding the intricacies of living expenses.
 
-Potential Questions:
-How do different factors like housing, food, transportation, and healthcare contribute to the overall cost of living in various areas?
-Is there a significant difference in the cost of living between metropolitan and non-metropolitan areas?
-Can we predict the median family income based on the various cost components?
-Which states or counties have the highest and lowest costs of living?
-How does the number of family members impact the overall cost of living?
-Project Structure:
-Part 1: EDA & Checking Model Assumptions
+## Table of Contents
+- [Objective](#objective)
+- [Questions Addressed](#questions-addressed)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Preprocessing](#data-preprocessing)
+- [Model Building & Evaluation](#model-building--evaluation)
+- [Conclusions & Insights](#conclusions--insights)
 
-Purpose: EDA helps in understanding the data's underlying structure, identifying anomalies, and checking the assumptions of our models.
-Question: What are some purposes of EDA before constructing a logistic regression model?
-Part 2: Model Building and Evaluation
+## Objective
+Our primary aim was to understand the elements affecting the cost of living across various regions in the U.S. We aspired to build a regression model that predicts the total cost of living based on multiple factors.
 
-Purpose: To create logistic regression, linear regression, and multiple linear regression models to predict various outcomes based on the dataset.
-Question: What resources do you find yourself using as you complete this stage?
-Part 3: Interpreting Model Results
+## Questions Addressed
+1. How do different components, such as housing, transportation, and healthcare, contribute to the overall cost of living?
+2. Are there specific states or metropolitan areas that inherently have a higher cost of living?
 
-Purpose: To understand the implications of the model's results and how they can inform real-world decisions.
-Questions:
-What key insights emerged from your model(s)?
-What business recommendations do you propose based on the models built?
-PACE Stages:
+## Exploratory Data Analysis
+- **Data Overview**: We began with a comprehensive exploration of the dataset, understanding its structure, features, and distributions.
+- **Correlation Analysis**: Found strong positive correlations between `total_cost` and various individual cost components.
+- **Visualizations**: Visualized the distribution of numeric features, checked boxplots for key features, and explored categorical features.
 
-Throughout the project, we'll adhere to the PACE problem-solving framework: Plan, Analyze, Construct, and Execute.
+## Data Preprocessing
+- **Handling Missing Values**: Imputed missing values in `median_family_income` using median values.
+- **One-Hot Encoding**: Transformed categorical variables for regression analysis.
+
+## Model Building & Evaluation
+- **Multiple Linear Regression**: Used this model to predict the `total_cost` based on selected features.
+- **Performance Metrics**: Achieved an R-squared value of 1.0 on test data, indicating high predictive capability.
+- **Residual Analysis**: Residuals were found to be randomly scattered, confirming the model's assumptions.
+
+## Conclusions & Insights
+- **Influencing Factors**: Components such as housing, transportation, and healthcare significantly determine the cost of living.
+- **Geographical Differences**: Specific states and metropolitan areas exhibit unique cost profiles, suggesting that regional factors are essential.
+- **Applications**: The model's insights can guide budget planning, policy-making decisions, and strategies for real estate developers.
+
+---
+
+Feel free to clone, fork, or star this repository. Contributions and feedback are always welcome!
