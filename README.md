@@ -46,7 +46,6 @@ Our primary aim was to understand the elements affecting the cost of living acro
 - **Multiple Linear Regression**: Used this model to predict the `total_cost` based on selected features.
 - **Performance Metrics**: Achieved an R-squared value of 1.0 on test data, indicating high predictive capability.
 - **Residual Analysis**: Residuals were found to be randomly scattered, confirming the model's assumptions.
-![Screenshot 2023-10-15 at 11 16 36 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/6e3cfb8c-893c-4759-bc33-693f7f2d3588)
 ![Screenshot 2023-10-15 at 11 16 54 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/18b39f9a-916e-466c-8496-35ae3e7333af)
 ![Screenshot 2023-10-15 at 11 17 08 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/3cdd02ce-2034-4160-b171-01d4e4219b06)
 ![Screenshot 2023-10-15 at 11 17 20 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/7c3c3f4a-4039-415a-8542-10ae6c34b0ec)
