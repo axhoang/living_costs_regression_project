@@ -21,22 +21,6 @@ Our primary aim was to understand the elements affecting the cost of living acro
 - **Data Overview**: We began with a comprehensive exploration of the dataset, understanding its structure, features, and distributions.
 - **Correlation Analysis**: Found strong positive correlations between `total_cost` and various individual cost components.
 - **Visualizations**: Visualized the distribution of numeric features, checked boxplots for key features, and explored categorical features.
-
-## Data Preprocessing
-- **Handling Missing Values**: Imputed missing values in `median_family_income` using median values.
-- **One-Hot Encoding**: Transformed categorical variables for regression analysis.
-
-## Model Building & Evaluation
-- **Multiple Linear Regression**: Used this model to predict the `total_cost` based on selected features.
-- **Performance Metrics**: Achieved an R-squared value of 1.0 on test data, indicating high predictive capability.
-- **Residual Analysis**: Residuals were found to be randomly scattered, confirming the model's assumptions.
-
-## Conclusions & Insights
-- **Influencing Factors**: Components such as housing, transportation, and healthcare significantly determine the cost of living.
-- **Geographical Differences**: Specific states and metropolitan areas exhibit unique cost profiles, suggesting that regional factors are essential.
-- **Applications**: The model's insights can guide budget planning, policy-making decisions, and strategies for real estate developers.
-
-
 ![Screenshot 2023-10-15 at 11 13 33 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/afde2eac-ab07-4d26-a46d-02ee8c03712b)
 ![Screenshot 2023-10-15 at 11 13 46 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/04172d02-1ccc-4f96-bd1d-d301be52dfb2)
 ![Screenshot 2023-10-15 at 11 14 01 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/e9e2a438-c5dd-498d-9e46-cff5d9fcebe2)
@@ -52,6 +36,16 @@ Our primary aim was to understand the elements affecting the cost of living acro
 ![Screenshot 2023-10-15 at 11 15 58 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/983618cd-0018-472d-973f-3da64c26c6a8)
 ![Screenshot 2023-10-15 at 11 16 10 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/f49a6e83-58c8-478a-b793-259014fad726)
 ![Screenshot 2023-10-15 at 11 16 23 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/de4874bc-5053-46d0-a39f-2379fcdedb5d)
+
+## Data Preprocessing
+- **Handling Missing Values**: Imputed missing values in `median_family_income` using median values.
+- **One-Hot Encoding**: Transformed categorical variables for regression analysis.
+![Screenshot 2023-10-15 at 11 16 36 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/6e3cfb8c-893c-4759-bc33-693f7f2d3588)
+
+## Model Building & Evaluation
+- **Multiple Linear Regression**: Used this model to predict the `total_cost` based on selected features.
+- **Performance Metrics**: Achieved an R-squared value of 1.0 on test data, indicating high predictive capability.
+- **Residual Analysis**: Residuals were found to be randomly scattered, confirming the model's assumptions.
 ![Screenshot 2023-10-15 at 11 16 36 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/6e3cfb8c-893c-4759-bc33-693f7f2d3588)
 ![Screenshot 2023-10-15 at 11 16 54 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/18b39f9a-916e-466c-8496-35ae3e7333af)
 ![Screenshot 2023-10-15 at 11 17 08 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/3cdd02ce-2034-4160-b171-01d4e4219b06)
@@ -59,7 +53,15 @@ Our primary aim was to understand the elements affecting the cost of living acro
 ![Screenshot 2023-10-15 at 11 17 37 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/5c9c029f-6cce-4483-b79d-f0f0181056f2)
 ![Screenshot 2023-10-15 at 11 17 51 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/129191ef-5891-4274-b38a-79370403601f)
 ![Screenshot 2023-10-15 at 11 18 04 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/39c710ea-3631-4ea4-ac15-87e9f02692c0)
+
+## Conclusions & Insights
+- **Influencing Factors**: Components such as housing, transportation, and healthcare significantly determine the cost of living.
+- **Geographical Differences**: Specific states and metropolitan areas exhibit unique cost profiles, suggesting that regional factors are essential.
+- **Applications**: The model's insights can guide budget planning, policy-making decisions, and strategies for real estate developers.
 ![Screenshot 2023-10-15 at 11 18 11 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/c0e185d4-67a4-4d82-9eb6-5c92a9f8bbcc)
+
+
+
 
 
 
