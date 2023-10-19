@@ -33,7 +33,7 @@ The core objective of this project is to develop a robust predictive model that 
 
 ![1](https://github.com/axhoang/living_costs_regression_project/assets/117322132/3de59e09-42f8-4e1b-ab37-ad3dc1189ce0)
 ![2](https://github.com/axhoang/living_costs_regression_project/assets/117322132/15b7b03b-df76-41a8-b039-3c699506f929)
-![3](https://github.com/axhoang/living_costs_regression_project/assets/117322132/2c22e4d4-7e34-4665-b37c-9a03eba8f0c4)
+![Screenshot 2023-10-19 at 2 19 26 PM](https://github.com/axhoang/living_costs_regression_project/assets/117322132/adb5459a-560e-4268-bfb7-d66efc912152)
 ![4](https://github.com/axhoang/living_costs_regression_project/assets/117322132/2991fb86-0d75-4e4c-8097-b12a23825c34)
 ![5](https://github.com/axhoang/living_costs_regression_project/assets/117322132/141d418d-3922-45cf-9c21-672d06e3819a)
 ![6](https://github.com/axhoang/living_costs_regression_project/assets/117322132/c0cd10ac-babe-434f-8dd9-2ca8ddf2d7d8)
